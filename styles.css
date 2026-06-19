@@ -23,7 +23,13 @@ li {
 
 }
 
+.flex {
+    display: flex;
+}
 
+.flex-1 {
+    flex: 1;
+}
 
 /* NAVIGATION BAR */
 
@@ -58,4 +64,36 @@ nav {
 
 .nav__link--anchor-primary:hover {
     background-color: #5d3eff;
+}
+
+.personal__logo {
+    font-size: 24px;
+    color: #6030b1;
+    margin: 0 12px;
+    font-weight: bold;
+
+}
+
+/* ABOUT ME */
+
+#about-me {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-me__info--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-me__picture--mask img {
+    width: 100px;
+    height:auto;
+    
+    
 }
