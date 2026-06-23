@@ -111,3 +111,13 @@ nav {
     width: 100%;
 
 }
+
+.about-me__link {
+    margin: 0 8px;
+    font-size: 20px;
+    color: black;
+}
+
+.about-me__links {
+    padding-top: 10px;
+}
