@@ -174,9 +174,32 @@ nav {
     max-width: 100px;
 }
 
-.language__img--wrapper {
-    width: 25%;
+.language__list {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    
 }
+
+.language {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.language__img--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    padding: 25px 16px;
+}
+
+.language__list {
+    display: flex;
+    width: 100%;
+}
+
